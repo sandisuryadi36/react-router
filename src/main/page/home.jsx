@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import GetTechList from "./techList"
 
 export default function Home() {
@@ -26,10 +27,10 @@ export default function Home() {
         let element = props.tech.list.map((item, key) => {
             return (
                 <div key={key} className="col-md-4">
-                    <div className="my-4">
+                    <Link to={`/${item.name.toLowerCase()}`} className="my-4">
                         <i className={`${item.icon} fa-8x`} />
                         <h4>{item.name}</h4>
-                    </div>
+                    </Link>
                 </div>
             )
         })
