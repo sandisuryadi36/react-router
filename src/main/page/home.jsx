@@ -12,7 +12,7 @@ export default function Home() {
                     <div className="collapse multi-collapse my-2 mb-2" id={`collapse${item.type.toLowerCase()}`}>
                         <div className="card card-body">
                             {item.description}
-                            <div className="row">
+                            <div className="row m-4 align-items-center">
                                 <TechCards tech={item} />
                             </div>
                         </div>
@@ -27,7 +27,7 @@ export default function Home() {
         let element = props.tech.list.map((item, key) => {
             return (
                 <div key={key} className="col-md-4">
-                    <Link to={`/${item.name.toLowerCase()}`} className="my-4">
+                    <Link to={`/${item.name.toLowerCase()}`} className="m-4">
                         <i className={`${item.icon} fa-8x`} />
                         <h4>{item.name}</h4>
                     </Link>
@@ -38,10 +38,11 @@ export default function Home() {
     }
 
     return (
-        <div>
-            <h1 className="text-center my-3">Web Development</h1>
+        <div className="text-center">
+            <h1 className=" my-3">Web Development</h1>
+            <p>Here is some popular technology are use for website development</p>
 
-            <div className="row text-center gap-2">
+            <div className="row gap-4">
                 <Header />
             </div>
         </div>
