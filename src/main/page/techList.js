@@ -68,21 +68,21 @@ let techList = [
             {
                 name: "Express",
                 url: "https://expressjs.com/",
-                icon: "fab fa-express",
+                icon: "",
                 description: "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.",
                 img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
             },
             {
                 name: "Mongodb",
                 url: "https://www.mongodb.com/",
-                icon: "fab fa-mongodb",
+                icon: "",
                 description: "MongoDB is a cross-platform document-oriented database program.",
                 img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
             },
             {
                 name: "MySQL",
                 url: "https://www.mysql.com/",
-                icon: "fab fa-mysql",
+                icon: "",
                 description: "MySQL is a relational database management system (RDBMS) based on SQL.",
                 img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
             },

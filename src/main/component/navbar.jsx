@@ -13,7 +13,7 @@ export default function Navbar() {
             if (item === "Home") link = "/"
             return (
                 <li key={index} className="nav-item" >
-                    <NavLink to={link} className={`/${item}` === linkNow.pathname ? "nav-link active" : "nav-link"} >{item.charAt(0).toUpperCase() + item.slice(1)}</NavLink>
+                    <NavLink to={link} className={`/${item.toLowerCase()}` === linkNow.pathname ? "nav-link active" : "nav-link"} >{item.charAt(0).toUpperCase() + item.slice(1)}</NavLink>
                 </li>
             )
         })
