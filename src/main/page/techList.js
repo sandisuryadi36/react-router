@@ -66,6 +66,20 @@ let techList = [
                 img: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
             },
             {
+                name: "PHP",
+                url: "https://www.php.net/",
+                icon: "fab fa-php",
+                description: "PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language.",
+                img: "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
+            },
+            {
+                name: "Golang",
+                url: "https://golang.org/",
+                icon: "fab fa-golang",
+                description: "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.",
+                img: "https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg"
+            },
+            {
                 name: "Express",
                 url: "https://expressjs.com/",
                 icon: "",
@@ -85,13 +99,6 @@ let techList = [
                 icon: "",
                 description: "MySQL is a relational database management system (RDBMS) based on SQL.",
                 img: "https://upload.wikimedia.org/wikipedia/commons/0/0a/MySQL_textlogo.svg"
-            },
-            {
-                name: "Golang",
-                url: "https://golang.org/",
-                icon: "fab fa-golang",
-                description: "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.",
-                img: "https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg"
             },
         ]
     },

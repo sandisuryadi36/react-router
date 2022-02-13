@@ -33,10 +33,11 @@ function App() {
           <Route path={"/sass"} element={<Tech item={getTechItem("SASS",1)} />} />
           <Route path={"/bootstrap"} element={<Tech item={getTechItem("Bootstrap",1)} />} />
           <Route path={"/nodejs"} element={<Tech item={getTechItem("NodeJs",2)} />} />
+          <Route path={"/php"} element={<Tech item={getTechItem("PHP",2)} />} />
+          <Route path={"/golang"} element={<Tech item={getTechItem("Golang",2)} />} />
           <Route path={"/express"} element={<Tech item={getTechItem("Express",2)} />} />
           <Route path={"/mongodb"} element={<Tech item={getTechItem("Mongodb",2)} />} />
           <Route path={"/mysql"} element={<Tech item={getTechItem("MySQL",2)} />} />
-          <Route path={"/golang"} element={<Tech item={getTechItem("Golang",2)} />} />
         </Route>
         <Route path="*" element={<NoPage />} />
       </Routes>
