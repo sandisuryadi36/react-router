@@ -22,6 +22,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Page />}>
           <Route index element={<Home />} />
+          <Route path="/frontend" element={<Home collapse={"frontend"} />} />
+          <Route path="/backend" element={<Home collapse={"backend"} />} />
           <Route path="/about" element={<About />} />
           <Route path={"/html"} element={<Tech item={getTechItem("HTML",1)} />} />
           <Route path={"/css"} element={<Tech item={getTechItem("CSS",1)} />} />
